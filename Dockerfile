@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi8/nodejs-12
+FROM registry.redhat.io/ubi8/nodejs-14
 
 # Create and change to the app directory.
 WORKDIR /usr/src/app
@@ -13,6 +13,8 @@ RUN npm install --only=production
 
 # Copy local code to the container image.
 COPY . ./
+
+USER nobody
 
 # Run the web service on container startup.
 CMD [ "npm", "start" ]
