@@ -5,7 +5,7 @@ projects:
   - name: hello-node
     git:
       remotes:
-        origin: "https://github.com/jkeam/hello-node.git"
+        origin: "https://github.com/skarni1805/hello-node.git"
       checkoutFrom:
         revision: main
 components:

@@ -9,6 +9,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/echo', (req, res) => {
+  res.send(`Hello ${target}!`);
+=======
     res.send(req.query.message);
 });
 
