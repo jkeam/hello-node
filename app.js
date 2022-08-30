@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/echo', (req, res) => {
-    res.send(req.query.message);
+    res.send(req.query.mess);
 });
 
 const port = process.env.PORT || 8080;
