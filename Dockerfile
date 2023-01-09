@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/nodejs-16-minimal@sha256:968b55e8b59b674b2bfee2b6eaaab773278a7695913dbef97043716b58fd2e4d
+FROM registry.access.redhat.com/ubi9/nodejs-18-minimal@sha256:a30c08e42ec5a6129f764e95fd7f1c34e2796f9305bcdde6ca1548795b10ff0b
 
 USER root
 
